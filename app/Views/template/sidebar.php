@@ -1,5 +1,5 @@
 <!-- Sidebar -->
-<ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
+<ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #76b900;">
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
@@ -23,7 +23,7 @@
 
     <li class="nav-item <?= $path == 'driver' ? 'active' : ''?>">
         <a class="nav-link" href="/driver">
-            <i class="fas fa-fw fa-table"></i>
+            <i class="fas fa-fw fa-hdd"></i>
             <span>Drivers</span></a>
     </li>
 
@@ -35,13 +35,13 @@
 
     <li class="nav-item <?= $path == 'contact' ? 'active' : ''?>">
         <a class="nav-link" href="/contact">
-            <i class="fas fa-fw fa-table"></i>
+            <i class="fas fa-fw fa-phone "></i>
             <span>Contact</span></a>
     </li>
 
     <li class="nav-item <?= $path == 'about' ? 'active' : ''?>">
         <a class="nav-link" href="/about">
-            <i class="fas fa-fw fa-table"></i>
+            <i class="fas fa-fw fa-user"></i>
             <span>About Us</span></a>
     </li>
 
