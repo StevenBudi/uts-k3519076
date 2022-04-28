@@ -35,46 +35,42 @@
 
                 <div class="container-fluid">
 
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Available Driver</h1>
-                    </div>
+                    <h1 class="h3" style="text-align: center;color: #76B900;">Available Driver</h1>
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        User
+                                        <a href="" class="btn btn-primary btn-sm float-right">New Record</a>
+                                    </div>
+                                    <div class="card-body">
+                                        <table id="table" class="table table-striped table-bordered table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <td>No</td>
+                                                    <td>Nama</td>
+                                                    <td>Tipe Produk</td>
+                                                    <td>Seri Produk</td>
+                                                    <td>Sistem Operasi</td>
+                                                    <td>Bahasa</td>
+                                                    <td>Tipe Download</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                            </tbody>
+                                        </table>
 
-                </div>
+                                    </div>
 
-            </div>
-            <div class="container mt-5">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-header">
-                                User
-                                <a href="" class="btn btn-primary btn-sm float-right">New Record</a>
+                                </div>
                             </div>
-                            <div class="card-body">
-
-                                <table id="table" class="table table-striped table-bordered table-hover">
-                                    <thead>
-                                        <tr>
-                                            <td>No</td>
-                                            <td>Nama</td>
-                                            <td>Tipe Produk</td>
-                                            <td>Seri Produk</td>
-                                            <td>Sistem Operasi</td>
-                                            <td>Bahasa</td>
-                                            <td>Tipe Download</td>
-                                            <td>Aksi</td>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                    </tbody>
-                                </table>
-
-                            </div>
-
                         </div>
                     </div>
                 </div>
+
             </div>
+
 
             <?= $this->include("template/footer") ?>
 
@@ -97,7 +93,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.23/datatables.min.js"></script>
 
-    <script type="text/javascript">
+    <script type="text/javascript" defer="true">
         $(document).ready(function() {
             var table = $('#table').DataTable({
                 "processing": true,

@@ -32,8 +32,12 @@ class Driver extends BaseController
                 $no++;
                 $row = [];
                 $row[] = $no;
-                $row[] = $list->name;
-                $row[] = $list->email;
+                $row[] = $list->nama;
+                $row[] = $list->product_type;
+                $row[] = $list->product_series;
+                $row[] = $list->os;
+                $row[] = $list->language;
+                $row[] = $list->download_type;
                 $data[] = $row;
             }
 

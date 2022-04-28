@@ -35,13 +35,13 @@
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="<?=base_url('/img/wp2780778-nvidia-gtx-wallpaper-1920x1080.jpg')?>" alt="First slide">
+                                <img class="d-block w-100" src="<?= base_url('/img/wp2780778-nvidia-gtx-wallpaper-1920x1080.jpg') ?>" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="<?=base_url('/img/wp2698662-nvidia-shield-wallpaper.png')?>" alt="Second slide">
+                                <img class="d-block w-100" src="<?= base_url('/img/wp2698662-nvidia-shield-wallpaper.png') ?>" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="<?=base_url('/img/wp2780771-nvidia-gtx-wallpaper-1920x1080.jpg')?>" alt="Third slide">
+                                <img class="d-block w-100" src="<?= base_url('/img/wp2780771-nvidia-gtx-wallpaper-1920x1080.jpg') ?>" alt="Third slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -54,6 +54,50 @@
                         </a>
                     </div>
 
+                    <div style="padding: 1em 0;">
+                        <h1 style="text-align: center;color: #76B900;">SHOP</h1>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="<?= base_url('/img/gf-ces22-30-series-lt-refresh-learn-nv-sfg-295x166@2x.jpg') ?>" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">GeForce RTX 30 Series Laptop</h5>
+                                        <p class="card-text">Powering the world's fastest Laptop</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="<?= base_url('/img/gf-ces22-30-series-lt-refresh-learn-nv-sfg-295x166@2x.jpg') ?>" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">The Ultimate Play</h5>
+                                        <p class="card-text">GeForce RTX<sup>Tm</sup> 30 Series</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="<?= base_url('/img/gf-ces22-30-series-lt-refresh-learn-nv-sfg-295x166@2x.jpg') ?>" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">GFN Thursday</h5>
+                                        <p class="card-text">See What's Streaming on GeForce Now</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="<?= base_url('/img/gf-ces22-30-series-lt-refresh-learn-nv-sfg-295x166@2x.jpg') ?>" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">In Nvidia Studio</h5>
+                                        <p class="card-text">Your weekly celebration of extraordinary artists, inspiring art, and creator news</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
