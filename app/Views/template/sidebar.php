@@ -21,25 +21,25 @@
             <span>Products</span></a>
     </li>
 
-    <li class="nav-item <?= $path == 'user' ? 'driver' : ''?>">
+    <li class="nav-item <?= $path == 'driver' ? 'active' : ''?>">
         <a class="nav-link" href="/driver">
             <i class="fas fa-fw fa-table"></i>
             <span>Drivers</span></a>
     </li>
 
-    <li class="nav-item <?= $path == 'user' ? 'teknologi' : ''?>">
+    <li class="nav-item <?= $path == 'teknologi' ? 'active' : ''?>">
         <a class="nav-link" href="/technology">
             <i class="fas fa-fw fa-table"></i>
             <span>Technologies</span></a>
     </li>
 
-    <li class="nav-item <?= $path == 'user' ? 'contact' : ''?>">
+    <li class="nav-item <?= $path == 'contact' ? 'active' : ''?>">
         <a class="nav-link" href="/contact">
             <i class="fas fa-fw fa-table"></i>
             <span>Contact</span></a>
     </li>
 
-    <li class="nav-item <?= $path == 'user' ? 'about' : ''?>">
+    <li class="nav-item <?= $path == 'about' ? 'active' : ''?>">
         <a class="nav-link" href="/about">
             <i class="fas fa-fw fa-table"></i>
             <span>About Us</span></a>

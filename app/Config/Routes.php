@@ -35,6 +35,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/product', 'Product::index');
 $routes->get('/product/(:segment)', 'Product::detail/$1');
 $routes->get('/driver', 'Driver::index');
+$routes->post('/driver/ajaxList', 'Driver::ajaxList');
 $routes->get('/technology', 'Technology::index');
 $routes->get('/contact', 'Contact::index');
 $routes->get('/about', 'About::index');

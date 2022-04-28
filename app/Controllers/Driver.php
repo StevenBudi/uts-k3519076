@@ -10,7 +10,12 @@ class Driver extends BaseController
     public function index()
     {
         
-        return view('driver', ["path" => "driver"]);
+        $data = [
+            'title' => 'User List',
+            'path' => 'driver'
+        ];
+
+        return view('driver', $data);
     }
 
     public function ajaxList()
